@@ -1,0 +1,109 @@
+#courses {
+    padding-bottom: 60px;
+    h2 {
+        color: var(--text-color);
+    }
+}
+
+.ap-tab-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 56px 0 30px;
+}
+
+
+
+.ap-tab-link {
+    text-align: center;
+    padding: 8px 30px;
+    background: transparent;
+    line-height: 32px;
+    font-size: 16px;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 8px;
+    transition: .4s;
+}
+
+.ap-tab-link:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.ap-tab-link:focus {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.courses__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.ap-tab__card {
+    width: calc(25% - 12px);
+    padding: 16px;
+    background: #fff;
+    &__top {
+        img {
+            width: 100%;
+        }
+    }
+    &__bottom {
+        &__title {
+            font-weight: 500;
+            font-size: 16px;
+            color: var(--text-color);
+            padding-top: 27px;
+        }
+        &__team {
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 12px;
+            padding: 8px 0;
+        }
+        &__prise {
+            p {
+                font-size: 24px;
+                color: var(--text-color);
+                font-weight: 500;
+                padding-top: 16px;
+                del {
+                    font-size: 16px;
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+
+.card__stars {
+    img {
+        width: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .ap-tab__card__bottom__prise p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 750px) {
+    .ap-tab__card {
+        width: calc(50% - 8px);
+    }
+}
+
+@media (max-width: 450px) {
+    .ap-tab__card {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
