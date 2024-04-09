@@ -43,6 +43,7 @@ button {
 .df {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .btn {
@@ -131,4 +132,48 @@ button {
 
 .show-backtop {
     display: block !important;
+}
+
+@mixin btn($bg: var($secondaryCl), $cl: var($primaryCl), $size: 16px) {
+    background: $bg;
+    color: $cl;
+    font-size: $size;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.4s;
+
+    &:hover {
+        color: white;
+        background: black;
+    }
+}
+
+@mixin btnRed($bg: #f72585, $cl: white, $size: 16px) {
+    background: $bg;
+    color: $cl;
+    font-size: $size;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #f72585;
+    transition: 0.4s;
+
+    &:hover {
+        color: #f72585;
+        background: white;
+    }
+}
+@mixin btnBlue($bg: #4586d6, $cl: white, $size: 16px) {
+    background: $bg;
+    color: $cl;
+    font-size: $size;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #4586d6;
+    transition: 0.4s;
+
+    &:hover {
+        color: #4586d6;
+        background: white;
+    }
 }

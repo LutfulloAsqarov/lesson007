@@ -24,11 +24,12 @@
             padding: 30px 0;
         }
         button {
-            padding: 16px 40px;
-            background: var(--primary-color);
-            color: var(--secondary-color);
-            border-radius: 8px;
-            font-size: 16px;
+            // padding: 16px 40px;
+            // background: var(--primary-color);
+            // color: var(--secondary-color);
+            // border-radius: 8px;
+            // font-size: 16px;
+            @include btnRed()
         }
     }
     @media (max-width: 700px) {

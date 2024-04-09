@@ -1,0 +1,47 @@
+footer {
+    background: var(--text-color);
+    .footer {
+        color: #fff;
+        &__top {
+            padding: 80px 0;
+            align-items: flex-start;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+        &__logo {
+            width: 40%;
+            p {
+                padding-top: 36px;
+            }
+        }
+        &__row {
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding-top: 24px;
+            }
+        }
+        &__bottom {
+            padding-bottom: 40px;
+            gap: 50px;
+            flex-wrap: wrap;
+            &__left {
+                gap: 40px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            &__row,
+            &__logo {
+                width: 100%;
+            }
+            &__bottom {
+                &__left {
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+}

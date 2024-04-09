@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.min.css" />
         <link
@@ -16,25 +17,48 @@
     <body>
         <header class="header">
             <div class="container header__container df">
-                <div class="logo">
-                    <a href="index.html">Logo</a>
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img
+                            src="./images/logo.svg"
+                            alt="here is the logo of website"
+                        />
+                    </a>
                 </div>
                 <nav class="header__navbar df">
+                    <form class="header__form">
+                        <input
+                            class="header__form__text"
+                            id="search__text"
+                            type="text"
+                            placeholder="Search bar"
+                        />
+                        <img
+                            class="header__form__img"
+                            src="images/header/Search.svg"
+                            alt=""
+                        />
+                    </form>
                     <ul class="header__list">
-                        <li class="header__list__item">
-                            <a header__link href="index.html">Home</a>
+                        <li class="header__list__item header__item__first df">
+                            <a class="header__link" href="index.html"
+                                >Category</a
+                            >
+                            <img
+                                src="images/header/arrow_drop_down.svg"
+                                alt=""
+                            />
                         </li>
                         <li class="header__list__item">
-                            <a header__link href="about.html">About</a>
+                            <a class="header__link" href="about.html"
+                                >Become an Mentor</a
+                            >
                         </li>
                         <li class="header__list__item">
-                            <a header__link href="services.html">Services</a>
+                            <button class="header__login">Login</button>
                         </li>
                         <li class="header__list__item">
-                            <a header__link href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="header__list__item">
-                            <a header__link href="contact.html">Contact</a>
+                            <button class="header__signup">Sign Up</button>
                         </li>
                     </ul>
 
@@ -42,7 +66,7 @@
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
-                            fill="white"
+                            fill="black"
                             width="24"
                         >
                             <path
@@ -149,1552 +173,1847 @@
                     </div>
                     <div class="ap-tab-container">
                         <div class="ap-tab-content">
-                          <div class="courses__content"> 
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
+                            <div class="courses__content">
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
                                         <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
                                         />
                                     </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                          </div>
                         </div>
                         <div class="ap-tab-content">
-                          <div class="courses__content"> 
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
+                            <div class="courses__content">
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
                                         <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
                                         />
                                     </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                          </div>
                         </div>
                         <div class="ap-tab-content">
-                          <div class="courses__content"> 
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
+                            <div class="courses__content">
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
                                         <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
                                         />
                                     </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                          </div>
                         </div>
                         <div class="ap-tab-content">
-                          <div class="courses__content"> 
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
+                            <div class="courses__content">
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
                                         <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
                                         />
                                     </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                          </div>
                         </div>
                         <div class="ap-tab-content">
-                          <div class="courses__content"> 
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
+                            <div class="courses__content">
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
                                         <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
                                         />
                                     </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ap-tab__card">
+                                    <div class="ap-tab__card__top">
+                                        <img
+                                            src="./images/courses/card-img.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <div class="ap-tab__card__bottom">
+                                        <h3 class="ap-tab__card__bottom__title">
+                                            Interpersonal skills - work better
+                                            with others!
+                                        </h3>
+                                        <p class="ap-tab__card__bottom__team">
+                                            Tanah Air Team
+                                        </p>
+                                        <div class="card__stars">
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/hero/star.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="ap-tab__card__bottom__prise df"
+                                        >
+                                            <p><del> $640 </del> $384</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ap-tab__card">
-                                <div class="ap-tab__card__top">
-                                    <img
-                                        src="./images/courses/card-img.svg"
-                                        alt="img"
-                                    />
-                                </div>
-                                <div class="ap-tab__card__bottom">
-                                    <h3 class="ap-tab__card__bottom__title">
-                                        Interpersonal skills - work better with
-                                        others!
-                                    </h3>
-                                    <p class="ap-tab__card__bottom__team">Tanah Air Team</p>
-                                    <div class="card__stars">
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                        <img
-                                            src="./images/hero/star.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="ap-tab__card__bottom__prise df">
-                                        <p> <del> $640 </del> $384</p>
-                                    </div>
-                                </div>
-                            </div>
-                          </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="catigories">
-              <div class="container catigories">
-                <h2 class="title">Top Categories</h2>
-                <div class="catigories__cards">
-                  <div class="catigories__card">
-                    <p>Art & Design</p>
-                  </div>
-                  <div class="catigories__card">
-                    <p>Art & Design</p>
-                  </div>
-                  <div class="catigories__card">
-                    <p>Art & Design</p>
-                  </div>
-                  <div class="catigories__card">
-                    <p>Art & Design</p>
-                  </div>
-                  <div class="catigories__card">
-                    <p>Art & Design</p>
-                  </div>
-                  <div class="catigories__card">
-                    <p>Art & Design</p>
-                  </div>
-                  <div class="catigories__card">
-                    <p>Art & Design</p>
-                  </div>
-                  <div class="catigories__card">
-                    <p>Art & Design</p>
-                  </div>
+                <div class="container catigories">
+                    <h2 class="title">Top Categories</h2>
+                    <div class="catigories__cards">
+                        <div class="catigories__card">
+                            <p>Art & Design</p>
+                        </div>
+                        <div class="catigories__card">
+                            <p>Art & Design</p>
+                        </div>
+                        <div class="catigories__card">
+                            <p>Art & Design</p>
+                        </div>
+                        <div class="catigories__card">
+                            <p>Art & Design</p>
+                        </div>
+                        <div class="catigories__card">
+                            <p>Art & Design</p>
+                        </div>
+                        <div class="catigories__card">
+                            <p>Art & Design</p>
+                        </div>
+                        <div class="catigories__card">
+                            <p>Art & Design</p>
+                        </div>
+                        <div class="catigories__card">
+                            <p>Art & Design</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </section>
             <section id="about">
-              <div class="container about">
-                <div class="about__cards">
-                  <div class="about__card">
-                    <img src="./images/about/video_library.svg" alt="img">
-                    <h3>10.000+</h3>
-                    <p>Courses</p>
-                  </div>
-                  <div class="about__card">
-                    <img src="./images/about/video_library.svg" alt="img">
-                    <h3>10.000+</h3>
-                    <p>Courses</p>
-                  </div>
-                  <div class="about__card">
-                    <img src="./images/about/video_library.svg" alt="img">
-                    <h3>10.000+</h3>
-                    <p>Courses</p>
-                  </div>
-                  <div class="about__card">
-                    <img src="./images/about/video_library.svg" alt="img">
-                    <h3>10.000+</h3>
-                    <p>Courses</p>
-                  </div>
+                <div class="container about">
+                    <div class="about__cards">
+                        <div class="about__card">
+                            <img
+                                src="./images/about/video_library.svg"
+                                alt="img"
+                            />
+                            <h3>10.000+</h3>
+                            <p>Courses</p>
+                        </div>
+                        <div class="about__card">
+                            <img
+                                src="./images/about/video_library.svg"
+                                alt="img"
+                            />
+                            <h3>10.000+</h3>
+                            <p>Courses</p>
+                        </div>
+                        <div class="about__card">
+                            <img
+                                src="./images/about/video_library.svg"
+                                alt="img"
+                            />
+                            <h3>10.000+</h3>
+                            <p>Courses</p>
+                        </div>
+                        <div class="about__card">
+                            <img
+                                src="./images/about/video_library.svg"
+                                alt="img"
+                            />
+                            <h3>10.000+</h3>
+                            <p>Courses</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </section>
             <section id="mentor">
-              <div class="container mentor">
-                <div class="mentor__left">
-                  <img src="./images/mentor/img.svg" alt="img">
+                <div class="container mentor">
+                    <div class="mentor__left">
+                        <img src="./images/mentor/img.svg" alt="img" />
+                    </div>
+                    <div class="mentor__right">
+                        <h2 class="title">Become an Mentor</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Feugiat eu in orci, nunc amet libero. Nam
+                            scelerisque vestibulum bibendum a turpis. Ante
+                            feugiat lectus massa, odio amet. Auctor sit mattis
+                            non id proin elit placerat. Lectus morbi amet et
+                            aliquam magna mauris. <br /><br />Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit. Feugiat eu in
+                            orci, nunc amet libero. Nam scelerisque vestibulum
+                            bibendum a turpis. Ante feugiat lectus massa, odio
+                            amet. Auctor sit mattis non id proin elit placerat.
+                            Lectus morbi amet et aliquam magna mauris.
+                        </p>
+                        <button>Start Teaching</button>
+                    </div>
                 </div>
-                <div class="mentor__right">
-                  <h2 class="title">Become an Mentor</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eu in orci, nunc amet libero. Nam scelerisque vestibulum bibendum a turpis. Ante feugiat lectus massa, odio amet. Auctor sit mattis non id proin elit placerat. Lectus morbi amet et aliquam magna mauris. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eu in orci, nunc amet libero. Nam scelerisque vestibulum bibendum a turpis. Ante feugiat lectus massa, odio amet. Auctor sit mattis non id proin elit placerat. Lectus morbi amet et aliquam magna mauris.</p>
-                  <button>Start Teaching</button>
-                </div>
-              </div>
             </section>
             <section id="company">
-              <div class="container company">
-                <h2 class="title">Trusted by Company</h2>
-                <div class="company__logos">
-                  <img src="./images/company/company.svg" alt="">
-                  <img src="./images/company/company.svg" alt="">
-                  <img src="./images/company/company.svg" alt="">
-                  <img src="./images/company/company.svg" alt="">
-                  <img src="./images/company/company.svg" alt="">
-                  <img src="./images/company/company.svg" alt="">
+                <div class="container company">
+                    <h2 class="title">Trusted by Company</h2>
+                    <div class="company__logos">
+                        <img src="./images/company/company.svg" alt="" />
+                        <img src="./images/company/company.svg" alt="" />
+                        <img src="./images/company/company.svg" alt="" />
+                        <img src="./images/company/company.svg" alt="" />
+                        <img src="./images/company/company.svg" alt="" />
+                        <img src="./images/company/company.svg" alt="" />
+                    </div>
                 </div>
-              </div>
-
+            </section>
+            <section id="blog">
+                <div class="container blog">
+                    <h2 class="title">The Latest Blog</h2>
+                    <div class="blog__cards df">
+                        <div class="blog__card">
+                            <div class="blog__card__img">
+                                <img src="./images/blog/bolg-img.jpg" alt="" />
+                            </div>
+                            <div class="blog__card__info">
+                                <h3 class="blog__card__title">
+                                    10 graphic design trends to get you inspired
+                                    in 2021
+                                </h3>
+                                <p class="blog__card__desc">
+                                    Lorem ipsum dolor sit amet, consec tetur
+                                    adipiscing elit, sed do eiusmod.
+                                </p>
+                                <button class="blog__card__btn">
+                                    Read More
+                                </button>
+                            </div>
+                        </div>
+                        <div class="blog__card">
+                            <div class="blog__card__img">
+                                <img src="./images/blog/bolg-img.jpg" alt="" />
+                            </div>
+                            <div class="blog__card__info">
+                                <h3 class="blog__card__title">
+                                    10 graphic design trends to get you inspired
+                                    in 2021
+                                </h3>
+                                <p class="blog__card__desc">
+                                    Lorem ipsum dolor sit amet, consec tetur
+                                    adipiscing elit, sed do eiusmod.
+                                </p>
+                                <button class="blog__card__btn">
+                                    Read More
+                                </button>
+                            </div>
+                        </div>
+                        <div class="blog__card">
+                            <div class="blog__card__img">
+                                <img src="./images/blog/bolg-img.jpg" alt="" />
+                            </div>
+                            <div class="blog__card__info">
+                                <h3 class="blog__card__title">
+                                    10 graphic design trends to get you inspired
+                                    in 2021
+                                </h3>
+                                <p class="blog__card__desc">
+                                    Lorem ipsum dolor sit amet, consec tetur
+                                    adipiscing elit, sed do eiusmod.
+                                </p>
+                                <button class="blog__card__btn">
+                                    Read More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
+        <footer>
+            <div class="container footer">
+                <div class="footer__top df">
+                    <div class="footer__logo">
+                        <img src="./images/footer-logo.svg" alt="logo" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Amet tristique placerat eleifend aliquam
+                            pellentesque facilisis ultrices. Imperdiet mus urna
+                            egestas at tellus.
+                        </p>
+                    </div>
+                    <div class="footer__row">
+                        <h2 class="row__title">About</h2>
+                        <ul>
+                            <li class="footer__link">
+                                <a href="#">About us</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Courses</a>
+                            </li>
+                            <li class="footer__link"><a href="#">Mentor</a></li>
+                            <li class="footer__link">
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__row">
+                        <h2 class="row__title">Support</h2>
+                        <ul>
+                            <li class="footer__link">
+                                <a href="#">Careers</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Help & Support</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__row">
+                        <h2 class="row__title">Company</h2>
+                        <ul>
+                            <li class="footer__link">
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Terms of Service</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Code of Conduct</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom df">
+                    <div class="footer__bottom__left df">
+                        <p>Privacy Policy</p>
+                        <p>Terms and Condition</p>
+                    </div>
+                    <p class="footer__bottom__right">
+                        @2020 TanahAir Studio. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
         <script src="https://cdn.jsdelivr.net/gh/abdulazizcreator/ap-tab/main.js"></script>
         <script src="js/app.js"></script>
     </body>

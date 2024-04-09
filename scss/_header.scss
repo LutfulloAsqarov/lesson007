@@ -1,55 +1,133 @@
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
-  width: 100%;
-  background: gray;
-  color: white;
-  padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #fff;
 
-  &__container {
-    justify-content: space-between;
-  }
+    &__logo {
+        margin-right: 24px;
+    }
 
-  &__navbar {
-    gap: 15px;
-  }
+    &__navbar {
+        gap: 40px;
+    }
 
-  &__list {
-    display: flex;
-    gap: 20px;
-  }
+    &__form {
+        position: relative;
+        max-width: 440px;
 
-  &__menu {
-    display: none;
-    background-color: transparent;
-  }
-}
+        &__text {
+            width: 100%;
+            padding: 12px 16px;
+            padding-right: 250px;
+            border-radius: 5px;
+            border: 1px solid #cccccc;
+        }
 
-@media (max-width: 768px) {
-  .header {
+        &__img {
+            position: absolute;
+            top: 50%;
+            right: 16px;
+            transform: translateY(-50%);
+        }
+    }
+
     &__list {
-      position: fixed;
-      top: 0;
-      left: -100%;
-      background-color: gray;
-      width: 60%;
-      height: 100vh;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0px 0px 10px gray;
-      transition: 0.4s;
-      z-index: 9999;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+
+    &__link {
+        color: $text-cl;
+    }
+
+    &__login {
+        padding: 8px 32px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        color: $text-cl;
+        background-color: transparent;
+        border: 1px solid $text-cl;
+        border-radius: 8px;
+        transition: 0.4s;
+
+        &:hover {
+            background: $primary-cl;
+            color: #fff;
+            border-color: $primary-cl;
+        }
+    }
+
+    &__signup {
+        padding: 8px 32px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        border: 1px solid $primary-cl;
+        border-radius: 8px;
+        transition: 0.4s;
+        background: $primary-cl;
+        color: #fff;
+
+        &:hover {
+            background: $primary-cl;
+            color: #fff;
+            border-color: $primary-cl;
+        }
+
+        &:hover {
+            background: transparent;
+            border-color: $text-cl;
+            color: $text-cl;
+        }
     }
 
     &__menu {
-      display: flex;
+        display: none;
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .header__form {
+        display: none;
     }
 
-    &__show-list {
-      left: 0;
+    .header__container {
+        justify-content: space-between;
     }
-  }
+}
+
+@media (max-width: 870px) {
+    .header {
+        &__list {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            background-color: white;
+            width: 60%;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 0px 10px gray;
+            transition: 0.4s;
+            z-index: 9999;
+        }
+
+        &__menu {
+            display: flex;
+        }
+
+        &__show-list {
+            left: 0;
+        }
+    }
 }
